@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.16.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.1",
+    "libraryName": "kudo",
+    "libraryId": "40d6c48a-c4c9-480c-92fb-4c728fa3ea5d",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Kudo",
+    "solutionShortDescription": "Kudo description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

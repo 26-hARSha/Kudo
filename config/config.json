@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "kudo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/kudo/KudoWebPart.js",
+          "manifest": "./src/webparts/kudo/KudoWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "KudoWebPartStrings": "lib/webparts/kudo/loc/{locale}.js"
+  }
+}

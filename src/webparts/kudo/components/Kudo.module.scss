@@ -1,0 +1,43 @@
+
+.component{
+  background-color: rgb(248, 231, 72);
+  word-spacing: 560px;
+  
+}
+
+.component p{
+  font-size: 24px;
+  font-weight: 700;
+  padding-left: 10px;
+  
+ a {
+    color: blue; text-decoration: underline;
+    cursor: pointer;
+  }
+}
+.maincontainer{
+  display: flex;
+  padding-bottom: 10px;
+}
+.KudoTo{
+  background-color: rgb(24, 162, 172);
+  display:flex;
+  width: 40%;
+  align-items: center;
+  font-weight: 500;
+  
+}
+.row {
+  margin: 20px;
+}
+.KudoTo p{
+  color: white;
+}
+.KudoTo img{
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+.Paragraph{
+  padding-left: 10px;
+}
